@@ -1,0 +1,141 @@
+#title{
+    background-color: #ff4c68;
+}
+.navbar{
+    font-size: 1.6rem;
+    margin-bottom: 8%;
+    padding-right: 14%;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-size: 2.8rem;
+}
+.nav-item{
+    margin: 0 7%;
+}
+.container-fluid{
+    padding: 3% 15% 1%;
+}
+
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+#phone{
+    padding: 5% 15% 5% 15%;
+    transform: rotate(22deg);
+    /* position: absolute; */
+    width: 66%;
+}
+.download{
+    margin: 3% 2% 0 0;
+}
+#features{
+    position: relative;
+    margin: 0 12%;
+    background-color: white;
+    /* z-index: 4; */
+}
+.feature-box{
+    margin: 13% 0;
+    padding: 0 3%;
+    text-align: center;
+}
+p{
+    font-size: 1.3rem;
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.feature-box>i{
+    font-size: 300%;
+    padding-bottom: 5%;
+    color: #ef8172;
+}
+.feature-box>i:hover{
+    color: rgb(240, 40, 40);
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+#testimonials{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #ef8172 ;
+    padding: 2% 0;
+}
+.carousel-item{
+    padding: 5% 20%;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 20%;
+    margin: 4% ;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172 ;
+    padding-bottom: 4%;
+}
+#press>img{
+    margin: auto 1%;
+    width: 12%;
+}
+
+#pricing{
+    text-align: center;
+    padding: 4% 2% ;
+}
+.card{
+    margin: 3%;
+}
+
+@media (max-width:1344px){
+
+h1{
+    font-size: 3.5rem;    
+}
+
+}
+@media (max-width:992px){
+    
+    h1{
+        font-size: 3rem;    
+    }
+    #phone{
+        transform: rotate(0deg);
+        position: relative;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9% 20%;
+}
+
+#footer{
+    text-align: center;
+    padding: 8% 40% 5%;
+}
+.footer-icons{
+    margin: 4% 2%;
+    width: 5%;
+}
